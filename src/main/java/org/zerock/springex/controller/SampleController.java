@@ -10,6 +10,7 @@ public class SampleController {
     // /hello 라는 경로를 호출 할 때 동작한다.
     @GetMapping("/hello")
     public void hello() {
+
         log.info("안녕!");
     }
 }
